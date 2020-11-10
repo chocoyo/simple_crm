@@ -1,1 +1,8 @@
-<h1><%= customers.full_name %></h1>
+
+<div class="column card is-one-quarter">
+  <h1 class="title"><%= customers.full_name %></h1>
+  <%= image_tag customers.image %>
+  <p><%= customers.phone_number%></p>
+  <p><%= customers.email_address%></p>
+  <p><b>Notes: </b><%= customers.notes%></p>
+</div>
