@@ -61,3 +61,6 @@ gem 'devise'
 
 # Bulma Styling
 gem "bulma-rails", "~> 0.9.0"
+
+# Image Resizing
+gem "image_processing"

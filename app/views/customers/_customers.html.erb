@@ -1,7 +1,7 @@
 
 <div class="column card is-one-quarter">
   <h1 class="title"><%= customers.full_name %></h1>
-  <%= image_tag customers.image %>
+  <%= image_tag customers.image.variant(resize_to_limit: [400,300]).processed %>
   <p><%= customers.phone_number%></p>
   <p><%= customers.email_address%></p>
   <p><b>Notes: </b><%= customers.notes%></p>
